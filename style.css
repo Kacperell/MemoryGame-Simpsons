@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'marker';
+    src: url('fonts/PermanentMarker.ttf') format('truetype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -51,10 +55,7 @@ body {
     margin: 0 auto;
 }
 
-@font-face {
-    font-family: 'marker';
-    src: url('/fontmarker/PermanentMarker.ttf');
-}
+
 
 .selectLvl {
     display: flex;
