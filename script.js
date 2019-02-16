@@ -168,7 +168,7 @@
                 card.classList.add("hidden");
                 card.addEventListener("click", clickCard)
             })
-        }, 5500);
+        }, 5800);
     };
 
     const MediumButton = document.querySelector(".mediumButton");
@@ -253,4 +253,13 @@
         });
     }
     updateHardRank();
+
+    for(let i=1;i<30;i++){
+        console.log("Xd");
+        const img=new Image();
+     //   img.src = `img/${i}.jpg`;
+        img.classList=`c${i}`;
+    box.appendChild(img);
+    }
+
 })();
