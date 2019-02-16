@@ -9,23 +9,39 @@
 </head>
 
 <body>
-    <a href="">  
-  <div class="top">
+    
+  <section class="top">
     <img src="grafiki/logoStreet.png" alt="Simspon" class="logo"> 
-  </div></a> 
-  <div class="selectLvl">
+  </section>
+
+
+
+  <section class="selectLvl">
     <a href="#box" class="buttonToBox">
       <button class="button mediumButton">Medium</button>
     </a>
     <a href="#box" class="buttonToBox">
       <button class="button hardButton">Hard</button>
     </a>
-  </div>
-  <div class="timer">
-  </div>
-  <div class="box" id="box">
-  </div>
-  <div class="footer">
+    <a href="#ranking" class="buttonToRamking">
+      <button class="button rankingBtn">Top 5</button>
+    </a>
+  </section>
+  
+  <section class="box" id="box">
+  </section>
+
+  <section class="ranking off" id="ranking">
+      
+    <div class="top5 medium">
+     
+    </div>
+    <div class="top5 hard">
+       
+    </div>
+  </section>
+
+  <section class="footer">
     <p>
       <a class="linkMedia" href="https://www.instagram.com/machonis/?hl=en">Images designed by Machonis
         <img src="grafiki/instagram.png" alt="Instagram" class="socialMedia">
@@ -36,9 +52,12 @@
         <img src="grafiki/github.png" alt="Github" class="socialMedia">
       </a>
     </p>
-  </div>
-  <script type="text/javascript" src="script.js">
-  </script>
+  </section>
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-firestore.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+    <!-- <script src="firebase.js"></script> -->
 </body>
 
 </html>
