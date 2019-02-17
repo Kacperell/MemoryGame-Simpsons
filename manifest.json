@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Memory Game ",
+    "scope": "/MemoryGame-Simpsons/",
+    "display": "browser",
+    "start_url": "https://kacperell.github.io/MemoryGame-Simpsons/",
+    "short_name": "Memory Game ",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/999f4753-90f1-c971-09be-992ea210f4fa.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7e9bbe5e-0510-097e-65c0-27674c27c41d.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/Square150x150Logo.scale-200.png.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/60472814-a209-66cb-45ed-f2620a284b30.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7a16cc9b-89b2-1db9-0744-d769e00568d5.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f7180659-0ff2-3e02-ee22-8627ed5d25a7.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/e9626518-f528-9688-3d6b-9df750f37583.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/Wide310x150Logo.scale-200.png.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4996449c-c87f-60b2-2a4c-b8a7dfa406f7.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d2e1c55b-dbda-6aec-7674-4d2c238b0985.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2119ea9d-7df1-4b61-f4bc-d1128d98d927.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f018eec0-e467-363a-dca5-92439ef63447.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/96156139-1eb7-cd50-4840-0d6dba9d4bbf.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ios/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3aa92dcd-ff68-cdd2-d93b-6b43a0d68f8a.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7b7b20f8-8c9d-2387-2db1-2869c7bf87cf.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d3e24db0-856c-35b3-ac00-90b572e70eb3.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/cfc10b6f-84dc-89dd-82ed-846a60f66397.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
