@@ -255,9 +255,7 @@
     updateHardRank();
 
     for(let i=1;i<30;i++){
-        console.log("Xd");
         const img=new Image();
-     //   img.src = `img/${i}.jpg`;
         img.classList=`c${i}`;
     box.appendChild(img);
     }
