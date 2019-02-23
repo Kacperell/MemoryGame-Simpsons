@@ -119,9 +119,9 @@
                             });
                         }
                         alert("Wow! Legit! You scored " + points + " points!😎 ");
-                        SelectLevel.classList.remove("off");
-                        footer.classList.remove("off");
-                        box.classList.add("off");
+                        SelectLevel.classList.remove("offsection");
+                        footer.classList.remove("offsection");
+                        box.classList.add("offsection");
                         gameResult = 0;
                         activeCard = "";
                         activeCards = [];
@@ -141,8 +141,8 @@
         }
     }
     const init = function (lvl) {
-        SelectLevel.classList.add("off");
-        footer.classList.add("off");
+        SelectLevel.classList.add("offsection");
+        footer.classList.add("offsection");
         startTime = new Date().getTime();
         for (i = 0; i < lvl; i++) {
             let div = document.createElement("div");
@@ -176,13 +176,13 @@
     const topLogo = document.querySelector(".top");
 
     MediumButton.addEventListener("click", function () {
-        box.classList.remove("off");
+        box.classList.remove("offsection");
         createclass(18);
         init(18);
         poziom = 1;
     });
     HardButton.addEventListener("click", function () {
-        box.classList.remove("off");
+        box.classList.remove("offsection");
         createclass(24);
         init(24);
         poziom = 2;
@@ -195,10 +195,10 @@
             myNode.removeChild(myNode.firstChild);
         }
 
-        SelectLevel.classList.remove("off");
-        footer.classList.remove("off");
-        box.classList.add("off");
-        ranking.classList.add("off");
+        SelectLevel.classList.remove("offsection");
+        footer.classList.remove("offsection");
+        box.classList.add("offsection");
+        ranking.classList.add("offsection");
         activeCard = "";
         activeCards = [];
         gameResult = 0;
@@ -206,9 +206,9 @@
     const rankingBtn = document.querySelector(".rankingBtn");
     const ranking = document.querySelector(".ranking");
     rankingBtn.addEventListener("click", function () {
-        SelectLevel.classList.add("off");
-        footer.classList.add("off");
-        ranking.classList.remove("off");
+        SelectLevel.classList.add("offsection");
+        footer.classList.add("offsection");
+        ranking.classList.remove("offsection");
 
     });
     function updateMediumRank() {

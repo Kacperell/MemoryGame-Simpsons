@@ -325,5 +325,10 @@ p {
     visibility: hidden;
     opacity: 0;
     height: 0;
+}
+.offsection {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
     display: none;
 }
